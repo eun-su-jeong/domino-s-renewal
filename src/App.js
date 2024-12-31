@@ -1,9 +1,10 @@
-import './App.css';
+import './styles/_global.scss';
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <div>
-      <h1>Domino's</h1>
+    <div className={'wrapper'}>
+      <Header />
     </div>
   );
 }
